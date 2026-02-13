@@ -1,0 +1,72 @@
+@import url("https://fonts.googleapis.com/css2?family=Allura&family=Caveat:wght@500;600;700&family=Cormorant+Garamond:wght@400;500;600;700&family=Great+Vibes&family=Playfair+Display:wght@500;700&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --surface: #f6efe7;
+  --paper: #fbf7f2;
+  --ink: #2f2a24;
+  --muted: #877a6f;
+  --primary: #c58a59;
+
+  font-family: "Cormorant Garamond", "Times New Roman", serif;
+  line-height: 1.5;
+  font-weight: 400;
+  color: var(--ink);
+  background-color: var(--paper);
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+  background-color: var(--paper);
+}
+
+.bg-surface {
+  background-color: var(--surface);
+}
+
+.text-dark {
+  color: var(--ink);
+}
+
+.text-muted {
+  color: var(--muted);
+}
+
+.text-primary {
+  color: var(--primary);
+}
+
+.font-heading {
+  font-family: "Playfair Display", "Times New Roman", serif;
+  letter-spacing: 0.01em;
+}
+
+.font-serif {
+  font-family: "Cormorant Garamond", "Times New Roman", serif;
+}
+
+.font-handwriting {
+  font-family: "Allura", "Brush Script MT", cursive;
+}
+
+.font-letter-title {
+  font-family: "Great Vibes", "Allura", "Brush Script MT", cursive;
+  font-weight: 400;
+  letter-spacing: 0.02em;
+}
+
+.font-letter-body {
+  font-family: "Caveat", "Cormorant Garamond", "Times New Roman", serif;
+  font-weight: 500;
+  letter-spacing: 0.01em;
+}
+
