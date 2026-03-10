@@ -61,5 +61,5 @@ Built as part of my mini frontend feature series to sharpen UI and animation ski
 I’m currently open to Frontend / UI / Fullstack roles and freelance projects.
 
 Let’s connect:
-- LinkedIn: [your link]
-- Portfolio: [your link]
+- LinkedIn: (https://www.linkedin.com/in/prajakta-bansod/)
+
